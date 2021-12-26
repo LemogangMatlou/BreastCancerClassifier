@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np 
 import pickle
 
-st.subheader('Complete the following')
+st.header('Brest Cancer Classification')
 st.subheader('The mean : Radius, Texture, Perimeter, Area, Smoothness, Comapactness, Concavity, Symmetry, Fractal dimension')
 
 radius_mean = st.number_input('What is the radius mean of the patiets cells?')
