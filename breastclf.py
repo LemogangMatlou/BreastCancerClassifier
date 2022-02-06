@@ -50,7 +50,7 @@ if submit:
 							radius_worst, texture_worst, perimeter_worst, area_worst, smoothness_worst, compactness_worst, concavity_worst, concave_points_worst, symmetry_worst, fractal_dimension_worst])
 
 
-	pickle_in = open('Breast-Cancer-KNN.pickle' , 'rb')
+	pickle_in = open('./Breast-Cancer-KNN.pickle' , 'rb')
 	clf = pickle.load(pickle_in)
 	prediction = clf.predict([doctor_input])
 
